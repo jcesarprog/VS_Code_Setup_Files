@@ -2,14 +2,21 @@
     // Editor Settings
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 15,
-    "workbench.iconTheme": "vscode-icons",
-    "files.autoSave": "onFocusChange",
+    //"workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
     "editor.wordWrap": "on",    
     "editor.minimap.enabled": false,
-    // "files.autoSave": "on",
-    // "files.autoSaveDelay": 1000,    
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "files.hotExit": "onExit",  
+    "explorer.openEditors.visible": 0,
+    "terminal.integrated.fontFamily": "monospace",
+    //Emmet Settings
+    "emmet.includeLanguages": {"html", "javascript", "typescript", "python"},
     // Python Settings
-    "python.pythonPath": "/usr/bin/python3.6",    
+    "python.pythonPath": "/usr/bin/python3.7",    
     "python.formatting.provider": "autopep8",
     "python.globalModuleInstallation": true,
     "python.linting.enabled": true,
@@ -22,19 +29,15 @@
     ],
     // Git-Lens Settings    
     "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
+        "suppressShowKeyBindingsNotice": true,
         "suppressResultsExplorerNotice": true
     },
     "[python]": {
         
     },
-    "code-runner.executorMap":{ 
-        "python": "/usr/bin/python3"
-    },
+    /*"code-runner.executorMap":{ 
+        "python": "/usr/bin/python3.7"
+    },*/
+    
     
 }
