@@ -1,0 +1,106 @@
+"Reset-Selector": {
+		"prefix": "css_reset",
+		"body": [
+			"*,",
+			"*::before,",
+			"*::after {",
+			"\tmargin: 0;",
+			"\tpadding: 0;",
+			"\tbox-sizing: border-box;",
+			"}",
+			"",
+			"img {",
+			"\twidth: 100%;",
+			"\theight: 100%;",
+			"\tdisplay: block;",
+			"}",
+			"",
+			".clearfix {",
+			"\t/* Classe para limpar o fluxo flutuante de floats */",
+			"\tclear: both;",
+			"}",
+			"$0"
+		],
+		"description": "Main reset selector"
+	},	
+	"width and height": {
+		"prefix": "wh",
+		"body": [
+			"width: $1;",
+			"height: $0;"
+		],
+		"description": "width and height"
+	},
+	"Hide Text, but allows web readers": {
+		"prefix": "hide",
+		"body": [
+			".hidden {",
+			"    display: block;",
+			"    width: 0;",
+			"    height: 0;",
+			"    overflow: hidden;",
+			"    opacity: 0;",
+			"}"
+		],
+		"description": "Hide Text, but allows web readers"
+	},
+	"CSS Tablet - Media Query": {
+		"prefix": "css_tablet_query",
+		"body": [
+			"@media(max-width: 768px){",
+			"\t/* Tablet CSS */",
+			"}",
+			"$0"
+		],
+		"description": "CSS Tablet - Media Query"
+	},
+	"CSS Phone - Media Query": {
+		"prefix": "css_phone_query",
+		"body": [
+			"@media(max-width: 500px){",
+			"\t/* Phone CSS */",
+			"}",
+			"$0"
+		],
+		"description": "CSS Phone - Media Query"
+	},
+	"CSS HD - Media Query": {
+		"prefix": "css_hd_query",
+		"body": [
+			"@media(max-width: 1280px){",
+			"\t/* HD CSS */",
+			"}",
+			"$0"
+		],
+		"description": "CSS HD - Media Query"
+	},
+	"CSS Full HD - Media Query": {
+		"prefix": "css_fhd_query",
+		"body": [
+			"@media(max-width: 1920px){",
+			"\t/* Full HD CSS */",
+			"}",
+			"$0"
+		],
+		"description": "CSS Full HD - Media Query"
+	},
+	"CSS 2K - Media Query": {
+		"prefix": "css_2k_query",
+		"body": [
+			"@media(max-width: 2560px){",
+			"\t/* 2K CSS */",
+			"}",
+			"$0"
+		],
+		"description": "CSS 2K - Media Query"
+	},
+	"CSS 4K - Media Query": {
+		"prefix": "css_4k_query",
+		"body": [
+			"@media(max-width: 3840px){",
+			"\t/* 4K CSS */",
+			"}",
+			"$0"
+		],
+		"description": "CSS 4K - Media Query"
+	}
